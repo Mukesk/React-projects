@@ -1,0 +1,85 @@
+/* Background styles */
+body {
+  background-image:url("images/bg.avif");
+  background-position: center;
+}
+
+
+.container {
+  backdrop-filter: blur(16px) saturate(128%);
+  -webkit-backdrop-filter: blur(16px) saturate(128%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.cname{
+  font-size: 30px;
+  align-self: center;
+  color: whitesmoke;
+}
+
+
+ *{
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 1px;
+  font-style: normal;
+}
+.labforinput{
+  font-size: 20px;
+  font-weight: 400px;
+  color:rgb(136, 140, 154)
+} 
+input{
+  background-color: rgba(17, 25, 40, 0.75); 
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  border-radius: 5px;
+  height: 40px;
+  width: 500px;
+  margin: 5px;
+  color: whitesmoke;
+}
+.but2{
+  background-color:rgb(52, 138, 76) ;
+  color: whitesmoke;
+}
+button{
+  height: 40px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+}
+.groupbut{
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  color: whitesmoke;
+  
+ 
+
+}
+.but{
+background-color:  rgb(85, 93, 102);
+color: whitesmoke;
+
+}
+.footer{
+  color: rgb(136, 140, 154);
+  font-size: 16px;
+  align-self:end;
+  margin: 1px;
+ 
+
+}
+.footer a{
+  text-decoration: none;
+  
+}
+.image{
+  align-self: center;
+}
