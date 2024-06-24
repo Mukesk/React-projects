@@ -1,0 +1,108 @@
+.container{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: silver;
+
+
+}
+.card {
+  background-image: url("atmbg/bg5.jpg");
+  width: 480px;
+  height: 300px;
+  border-radius: 10px;
+ 
+  display: flex;
+  flex-direction: column;
+  line-height: 0%;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  margin: 2px;
+  font-size: 25px;
+  padding-left: 10px;
+}
+.top :nth-last-child(1){
+  padding-right: 10px;
+  font-size: 20px;
+
+}
+.chip{
+  height: 80px;
+  width: 80px;
+}
+.container {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 2px;
+  font-style: normal;
+}
+  
+
+.imgcontainer{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  
+}
+.imgcontainer :nth-child(1){
+
+  margin-left: 15px;
+  font-size: 20px;
+  
+}
+
+.valid{
+  line-height: 0%;
+  text-align: center;
+  margin-right: 15px;
+}
+.cardname:nth-last-child(1){
+  font-size: 25px;
+}
+.cardname{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content:space-between;
+}
+.arrow{
+  font-weight: 900;
+  align-self: center;
+  
+}
+.imgman{
+  display: flex;
+  gap: 10px;
+  align-self: center;
+ 
+
+ justify-content: space-between;
+
+}
+.carder{
+  font-size: 25px;
+  margin-left: 15px;
+}
+.input-container{
+
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  font-size: 22px;
+  border: 2px solid ;
+  box-shadow: 80px grey ;
+  margin: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input {
+  height: 30px;
+}
+select{
+  height: 30px;
+}
