@@ -71,11 +71,11 @@ function App() {
       <div className="input-container">
         <div>
           <label htmlFor="credit">Is Credit Card</label>
-          <input type="checkbox" checked={cardholder.credit} name="credit" onChange={changehandler} id="credit" />
+          <input className='checkbox-wrapper-46' type="checkbox" checked={cardholder.credit} name="credit" onChange={changehandler} id="credit" />
         </div>
         <div>
           <label>Enter Bank Name:</label>
-          <input value={cardholder.bank} name="bank" onChange={changehandler} />
+          <input value={cardholder.bank} className='coolinput  ' name="bank" onChange={changehandler} />
         </div>
         <div>
           <label>Enter Card Number:</label>
@@ -108,7 +108,7 @@ function App() {
             <option value="gold">Gold</option>
           </select>
         </div>
-        <button onClick={handleDownload}>Download Card as JPG</button>
+        <button onClick={handleDownload}>Download</button>
       </div>
     </>
   );
