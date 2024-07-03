@@ -1,0 +1,49 @@
+
+.container
+{
+    height: 500px;
+    width: 350px;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    gap: 10px;
+ 
+}
+.container div img{
+    height: 180px;
+    width: 180px;
+    
+}
+
+
+
+.container :nth-child(1){
+    align-self: center;
+}
+.container input{
+    border: 1px solid rgba(72, 69, 69, 0.393);
+    height: 30px;
+    border-radius: 5px;
+}
+.container select{
+    border: 1px solid rgba(72, 69, 69, 0.393);
+    height: 40px;
+    border-radius: 5px;
+    
+}
+.res{
+    color:rgb(18, 144, 190);
+    border: 2px solid rgb(18, 144, 190) ;
+    text-align: center;
+    padding: 10px;
+    width: 250px;
+    align-self: center;
+    margin: 10px;
+    margin-top: 20px;
+}

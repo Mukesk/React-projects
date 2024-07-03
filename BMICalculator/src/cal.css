@@ -1,0 +1,90 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    height: 400px;
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    
+
+}
+.container img{
+   height:  400px;
+   
+}
+.imgcon{
+    overflow: hidden;
+    justify-content: stretch;
+    display: flex;
+    justify-content: end;
+    flex: 1;
+     
+}
+.sub_container{
+    overflow: hidden;
+    display: flex;
+    flex-flow: row;
+    flex-direction: column;
+    flex: 1;
+    padding: 5px;
+    
+}
+.sub_container h2{
+    align-self: center;
+    margin: 10px;
+}
+.sub_container label{
+    font-size: 20px;
+}
+.sub_container input{
+    height: 20px;
+    margin:10px 1px;
+}
+.but button{
+    height: 40px;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.664);
+    color: aliceblue;
+}
+.but button[type="reset"]{
+    background-color: rgb(103, 103, 224);
+    border-radius: 5;
+    color: aliceblue;
+    border-radius: 5px;
+
+}
+.but{
+    display: flex;
+    justify-content: space-around;
+}
+hr{
+    color: black;
+}
+.res{
+    border: 2px solid rgb(181, 181, 231) ;
+    height: 100px;
+    width: 200px;
+    align-self: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: underline;
+  
+
+}
+
+
+
+
+
