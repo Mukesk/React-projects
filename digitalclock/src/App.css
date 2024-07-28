@@ -1,0 +1,73 @@
+.d_clock{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  background-color: rgba(0, 0, 0, 0.868);
+  height: 240px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 20px black;
+
+ 
+
+
+}
+.con.d_clock {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.868);
+  height: 240px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Fixed box-shadow value */
+
+  /* Adjusted box-shadow to show on all sides */
+}
+
+.container :nth-child(1) {
+  align-self: center;
+}
+
+h4 {
+  font-size: 32px;
+  align-self: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h5 {
+  font-size: 15px;
+  align-self: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+ tainer :nth-child(1){
+  align-self: center;
+
+}
+h4{
+  font-size:32px;
+  align-self: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+h5{
+  font-size: 15px;
+  align-self: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}

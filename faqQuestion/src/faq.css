@@ -1,0 +1,37 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.question{
+    background-color: rgba(0, 0, 0, 0.249);
+    padding: 5px;
+    
+}
+.answer{
+    
+    max-height: 0;
+    transition: 100ms ease-in-out ;
+    
+   
+}
+
+.container{
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content:stretch;
+    align-items: stretch;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 5px;
+   
+    overflow: hidden;
+    cursor: pointer;
+}
+.container.active .answer{
+
+    max-height: fit-content;
+    padding: 5px;
+}

@@ -1,0 +1,25 @@
+.container{
+  background-color: rgb(145, 145, 145);
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 50px;
+  border-radius: 10px;
+  color: aliceblue;
+
+}
+ .container input[type="number"]{
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+ }
+body{
+  background-color: rgba(0, 0, 0, 0.753);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
