@@ -1,6 +1,6 @@
 {
     "quiz": {
-      "timeLimit": 600, 
+      "timelimit": 900, 
       "questions": [
         {
           "question": "What is the capital of France?",
@@ -104,5 +104,5 @@
         }
       ]
     }
-  }
   
+}

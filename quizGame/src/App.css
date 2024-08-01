@@ -77,19 +77,20 @@
     }
 }
 .quescontainer{
-    position: relative;
-    top:50px;
+   
+    margin-top: 100px;
     border: 2px solid rgba(7, 7, 7, 0.126);
 }
 .sub_container{
     border: 2px solid rgba(0, 0, 0, 0.271);
     margin:  5px px;
     padding: 10px;
+    margin-bottom: 20px;
 }
 .question{
     border: 2px solid;
     font-size: 26px;
-    background-color: #cdcccc76;
+    background-color: #0000003b;
     border-radius: 3px;
 }
 .opt{
@@ -97,4 +98,12 @@
 }
 .opt_sub{
     margin: 5px;
+}
+.but{
+    height: 30px;
+    margin:10px ;
+    width: 60px;
+    border: none;
+    background-color: rgba(54, 243, 33, 0.666);
+
 }
