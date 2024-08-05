@@ -29,7 +29,7 @@ const App = () => {
 
   return (
     <>
-      <h1>TODO List</h1>
+      <h1>TODO List</h1>  
       <div>
         <input onKeyDown={handle}></input>
         <button onClick={() => { dispatcher({ type: "add", payload: prompt("Enter task") }) }}>Add</button>
