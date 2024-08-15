@@ -52,4 +52,14 @@
     border: 2px solid rgba(0, 0, 0, 0.216);
     height: 100px;
     padding:5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.amount button{
+    height: 50px;
+    width: 100px;
+    border-radius: 7px;
+
 }

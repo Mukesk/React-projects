@@ -53,6 +53,7 @@ const Cart = () => {
       ))}
       <div className="amount">
         <h3>TOTAL AMOUNT: Rs.{totalAmount}</h3>
+        <button>Place Order</button>
       </div>
     </>
   );
