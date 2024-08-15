@@ -1,0 +1,34 @@
+import React from 'react'
+import "./navbar.css"
+import logo from "/food/logo.jpg"
+import {Link} from "react-router-dom"
+import homelogo from "/photo/home.svg"
+import cartlogo from "/photo/cart.svg"
+const   Navbar = () => {
+  return (
+    <>
+    <div className='container'>
+        <div className='c_logo'>
+           <h2 >BiteOnTime</h2>
+           <img src={logo} className='logo'/>
+        </div>
+        <nav>
+        <div className='hom'>
+          <img src={homelogo}></img>
+        <Link to={"/" }>Home</Link>
+        </div>
+        
+        <div className='hom'>
+        <img src={cartlogo}></img>
+
+        <Link to={"/cart"} >Cart</Link>
+        </div>
+       
+        </nav>
+        
+    </div>
+    </>
+  )
+}
+
+export default Navbar

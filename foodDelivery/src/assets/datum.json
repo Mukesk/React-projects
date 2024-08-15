@@ -1,0 +1,355 @@
+{
+  "foodItems": [
+    {
+      "id": 1,
+      "brand": "BrandA",
+      "price": 799.00,
+      "imgSrc": "./food/image001.jpg",
+      "count": 1
+    },
+    {
+      "id": 2,
+      "brand": "BrandB",
+      "price": 999.00,
+      "imgSrc": "./food/image002.jpg",
+      "count": 1
+    },
+    {
+      "id": 3,
+      "brand": "BrandC",
+      "price": 699.00,
+      "imgSrc": "./food/image003.jpg",
+      "count": 1
+    },
+    {
+      "id": 4,
+      "brand": "BrandD",
+      "price": 1199.00,
+      "imgSrc": "./food/image004.jpg",
+      "count": 1
+    },
+    {
+      "id": 5,
+      "brand": "BrandE",
+      "price": 599.00,
+      "imgSrc": "./food/image005.jpg",
+      "count": 1
+    },
+    {
+      "id": 6,
+      "brand": "BrandF",
+      "price": 849.00,
+      "imgSrc": "./food/image006.jpg",
+      "count": 1
+    },
+    {
+      "id": 7,
+      "brand": "BrandG",
+      "price": 949.00,
+      "imgSrc": "./food/image007.jpg",
+      "count": 1
+    },
+    {
+      "id": 8,
+      "brand": "BrandH",
+      "price": 1099.00,
+      "imgSrc": "./food/image008.jpg",
+      "count": 1
+    },
+    {
+      "id": 9,
+      "brand": "BrandI",
+      "price": 1049.00,
+      "imgSrc": "./food/image009.jpg",
+      "count": 1
+    },
+    {
+      "id": 10,
+      "brand": "BrandJ",
+      "price": 549.00,
+      "imgSrc": "./food/image010.jpg",
+      "count": 1
+    },
+    {
+      "id": 11,
+      "brand": "BrandK",
+      "price": 1249.00,
+      "imgSrc": "./food/image011.jpg",
+      "count": 1
+    },
+    {
+      "id": 12,
+      "brand": "BrandL",
+      "price": 699.00,
+      "imgSrc": "./food/image012.jpg",
+      "count": 1
+    },
+    {
+      "id": 13,
+      "brand": "BrandM",
+      "price": 549.00,
+      "imgSrc": "./food/image013.png",
+      "count": 1
+    },
+    {
+      "id": 14,
+      "brand": "BrandN",
+      "price": 999.00,
+      "imgSrc": "./food/image014.jpg",
+      "count": 1
+    },
+    {
+      "id": 15,
+      "brand": "BrandO",
+      "price": 899.00,
+      "imgSrc": "./food/image015.jpg",
+      "count": 1
+    },
+    {
+      "id": 16,
+      "brand": "BrandP",
+      "price": 649.00,
+      "imgSrc": "./food/image016.jpg",
+      "count": 1
+    },
+    {
+      "id": 17,
+      "brand": "BrandQ",
+      "price": 849.00,
+      "imgSrc": "./food/image017.jpg",
+      "count": 1
+    },
+    {
+      "id": 18,
+      "brand": "BrandR",
+      "price": 1099.00,
+      "imgSrc": "./food/image018.jpg",
+      "count": 1
+    },
+    {
+      "id": 19,
+      "brand": "BrandS",
+      "price": 949.00,
+      "imgSrc": "./food/image019.jpg",
+      "count": 1
+    },
+    {
+      "id": 20,
+      "brand": "BrandT",
+      "price": 799.00,
+      "imgSrc": "./food/image020.jpg",
+      "count": 1
+    },
+    {
+      "id": 21,
+      "brand": "BrandU",
+      "price": 699.00,
+      "imgSrc": "./food/image021.jpg",
+      "count": 1
+    },
+    {
+      "id": 22,
+      "brand": "BrandV",
+      "price": 1049.00,
+      "imgSrc": "./food/image022.jpg",
+      "count": 1
+    },
+    {
+      "id": 23,
+      "brand": "BrandW",
+      "price": 1249.00,
+      "imgSrc": "./food/image023.jpg",
+      "count": 1
+    },
+    {
+      "id": 24,
+      "brand": "BrandX",
+      "price": 749.00,
+      "imgSrc": "./food/image024.jpg",
+      "count": 1
+    },
+    {
+      "id": 25,
+      "brand": "BrandY",
+      "price": 899.00,
+      "imgSrc": "./food/image025.jpg",
+      "count": 1
+    },
+    {
+      "id": 26,
+      "brand": "BrandZ",
+      "price": 999.00,
+      "imgSrc": "./food/image026.jpg",
+      "count": 1
+    },
+    {
+      "id": 27,
+      "brand": "BrandAA",
+      "price": 799.00,
+      "imgSrc": "./food/image027.jpg",
+      "count": 1
+    },
+    {
+      "id": 28,
+      "brand": "BrandBB",
+      "price": 949.00,
+      "imgSrc": "./food/image028.jpg",
+      "count": 1
+    },
+    {
+      "id": 29,
+      "brand": "BrandCC",
+      "price": 649.00,
+      "imgSrc": "./food/image029.jpg",
+      "count": 1
+    },
+    {
+      "id": 30,
+      "brand": "BrandDD",
+      "price": 1099.00,
+      "imgSrc": "./food/image030.jpg",
+      "count": 1
+    },
+    {
+      "id": 31,
+      "brand": "BrandEE",
+      "price": 1249.00,
+      "imgSrc": "./food/image031.jpg",
+      "count": 1
+    },
+    {
+      "id": 32,
+      "brand": "BrandFF",
+      "price": 699.00,
+      "imgSrc": "./food/image032.jpg",
+      "count": 1
+    },
+    {
+      "id": 33,
+      "brand": "BrandGG",
+      "price": 549.00,
+      "imgSrc": "./food/image033.jpg",
+      "count": 1
+    },
+    {
+      "id": 34,
+      "brand": "BrandHH",
+      "price": 899.00,
+      "imgSrc": "./food/image034.jpg",
+      "count": 1
+    },
+    {
+      "id": 35,
+      "brand": "BrandII",
+      "price": 1049.00,
+      "imgSrc": "./food/image035.jpg",
+      "count": 1
+    },
+    {
+      "id": 36,
+      "brand": "BrandJJ",
+      "price": 1249.00,
+      "imgSrc": "./food/image036.jpg",
+      "count": 1
+    },
+    {
+      "id": 37,
+      "brand": "BrandKK",
+      "price": 749.00,
+      "imgSrc": "./food/image037.jpg",
+      "count": 1
+    },
+    {
+      "id": 38,
+      "brand": "BrandLL",
+      "price": 849.00,
+      "imgSrc": "./food/image038.jpg",
+      "count": 1
+    },
+    {
+      "id": 39,
+      "brand": "BrandMM",
+      "price": 799.00,
+      "imgSrc": "./food/image039.jpg",
+      "count": 1
+    },
+    {
+      "id": 40,
+      "brand": "BrandNN",
+      "price": 649.00,
+      "imgSrc": "./food/image040.jpg",
+      "count": 1
+    },
+    {
+      "id": 41,
+      "brand": "BrandOO",
+      "price": 1099.00,
+      "imgSrc": "./food/image041.jpg",
+      "count": 1
+    },
+    {
+      "id": 42,
+      "brand": "BrandPP",
+      "price": 949.00,
+      "imgSrc": "./food/image042.jpg",
+      "count": 1
+    },
+    {
+      "id": 43,
+      "brand": "BrandQQ",
+      "price": 799.00,
+      "imgSrc": "./food/image043.jpg",
+      "count": 1
+    },
+    
+    {
+      "id": 44,
+      "brand": "BrandRR",
+      "price": 699.00,
+      "imgSrc": "./food/image044.jpg",
+      "count": 1
+    },
+    {
+      "id": 45,
+      "brand": "BrandSS",
+      "price": 1249.00,
+      "imgSrc": "./food/image045.jpg",
+      "count": 1
+    },
+    {
+      "id": 46,
+      "brand": "BrandTT",
+      "price": 999.00,
+      "imgSrc": "./food/image046.jpg",
+      "count": 1
+    },
+    {
+      "id": 47,
+      "brand": "BrandUU",
+      "price": 649.00,
+      "imgSrc": "./food/image047.jpg",
+      "count": 1
+    },
+    {
+      "id": 48,
+      "brand": "BrandVV",
+      "price": 899.00,
+      "imgSrc": "./food/image048.jpg",
+      "count": 1
+    },
+    {
+      "id": 49,
+      "brand": "BrandWW",
+      "price": 849.00,
+      "imgSrc": "./food/image049.jpg",
+      "count": 1
+    },
+    {
+      "id": 50,
+      "brand": "BrandXX",
+      "price": 1049.00,
+      "imgSrc": "./food/image050.jpg",
+      "count": 1
+    }
+  ]
+}

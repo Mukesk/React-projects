@@ -1,0 +1,83 @@
+
+.crd{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    text-align: center;
+    padding: 10px;
+  
+    font-size:14px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+}
+.crd img{
+    height: 200px;
+    width: 200px;
+}
+.card{
+    -webkit-box-shadow: -1px -1px 19px -1px rgba(0,0,0,0.29);
+    -moz-box-shadow: -1px -1px 19px -1px rgba(0,0,0,0.29);
+    box-shadow: -1px -1px 19px -1px rgba(0,0,0,0.29);
+    padding: 10px;
+
+}
+.card button{
+    
+    padding: 10px;
+    margin:10px;
+    border:none;
+    border-radius: 5px;
+}
+button {
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: rgb(205, 93, 24);
+    border: solid 4px hsl(50, 12%, 90%);
+    font-family: inherit;
+    color: aliceblue;
+   }
+   
+   .default-btn,.hover-btn {
+    background-color: rgb(205, 93, 24);
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all .3s ease;
+   }
+   
+   .hover-btn {
+    position: absolute;
+    inset: 0;
+    background-color:rgb(205, 93, 24);
+    transform: translate(0%,100%);
+   }
+   
+   .default-btn span {
+    color: hsl(0, 0%, 96%);
+   }
+   
+   .hover-btn span {
+    color: hsl(0, 0%, 100%);
+   }
+   
+   button:hover .default-btn {
+    transform: translate(0%,-100%);
+   }
+   
+   button:hover .hover-btn {
+    transform: translate(0%,0%);
+   }
