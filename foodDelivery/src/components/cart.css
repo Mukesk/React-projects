@@ -14,6 +14,7 @@
  border: 2px rgba(51, 50, 50, 0.321) solid;
  border-radius: 5px;
  justify-content:space-between ;
+ overflow: hidden;
 }
 .sub{
     display: flex;
@@ -45,4 +46,10 @@
 }
 .counter button{
     width: 25px;
+}
+.amount{
+    margin: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.216);
+    height: 100px;
+    padding:5px;
 }

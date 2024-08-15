@@ -9,7 +9,7 @@
 .container{
     height:70px ;
     display: flex;
-    background-color:rgb(205, 93, 24);
+    background-color:rgb(243, 123, 48);
     color:white;
     width: 100%;
     align-items: center;
@@ -64,4 +64,8 @@ a{
     height: 25px;
     margin: 5px;
     
+}
+.container button{
+    height: 30px;
+    width: 30px;
 }
