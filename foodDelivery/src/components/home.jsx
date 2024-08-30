@@ -5,7 +5,7 @@ import Product from "./product.jsx"
 
 
 const Home = () => {
-  const [cout,setCout]=useState(1);
+  
   return (
     <>
     <div className="crd">
