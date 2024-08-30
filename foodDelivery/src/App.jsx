@@ -26,7 +26,7 @@ const App = () => {
        <Navbar/ >
        <br></br><br></br> <br></br><br></br>
        <Routes>
-         <Route path="/" element={<Home/>}></Route>
+         <Route path="/BiteMe" element={<Home/>}></Route>
          <Route path="/cart" element={<Cart/>}></Route>
        </Routes>       
       </BrowserRouter>
