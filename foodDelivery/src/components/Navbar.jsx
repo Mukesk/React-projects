@@ -19,7 +19,7 @@ const   Navbar = () => {
         <nav>
         <div className='hom'>
           <img src={homelogo}></img>
-        <Link to={"/" }>Home</Link>
+        <Link to={"/BiteMe" }>Home</Link>
         </div>
         <button> {cart.length}</button>
         <div className='hom'>
