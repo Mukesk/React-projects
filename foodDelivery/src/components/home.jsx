@@ -12,7 +12,7 @@ const Home = () => {
     {data.foodItems.map((value) => (
       <Product  id={value.id} brand={value.brand} count={value.count} price={value.price} imgSrc={value.imgSrc} />
     ))}
-    </div>
+    </div>//end
     </>
   );
 }
