@@ -10,7 +10,7 @@ const Home = () => {
     <>
     <div className="crd">
     {data.foodItems.map((value) => (
-      <Product  key={value.id} brand={value.brand} count={value.count} price={value.price} imgSrc={value.imgSrc} />
+      <Product  key={value.id} id={value.id} brand={value.brand} count={value.count} price={value.price} imgSrc={value.imgSrc} />
     ))}
     </div>//end
     </>
